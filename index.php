@@ -10,7 +10,7 @@
 			<label>Peso:</label>
 			<input type="number" name="peso"/>
 			<label>Altura:</label>
-			<input type="number" name="altura" step="0.'"/>
+			<input type="number" name="altura" step="0.1"/>
 			
 			<input type="submit" value="calcular"/>
 		</form>

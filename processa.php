@@ -1,12 +1,7 @@
 <?php
 	$peso=$_POST["peso"];
 	$altura=$_POST["altura"];
-	
-	$altura=$altura*$altura;
-	$resultado=$peso/$altura;
-	
-	echo "Peso: $peso";
-	echo "Altura: $altura";
+	$resultado=$peso/($altura*$altura);
 	
 	echo "Seu IMC é: $resultado";
 ?>
